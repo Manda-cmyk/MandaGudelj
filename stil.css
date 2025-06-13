@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+p {
+  color: peru;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 16px;
+  line-height: 18px;
+  width: 600px;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.paragraf_2 {
+  color: black; 
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+.novi_blok {
+  background-color: rgba(0, 128, 255, 0.8); 
+  padding: 20px;
+  margin: 20px;
+  width: 50%;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+h1, h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: orange; 
+  font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+span {
+  color: rgb(255, 0, 255);
+}
+
+body {
+  background-image: url("../slike/POZZ.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.drugapozadina {
+  background-color: darkgray;
+}
+
+a {
+  color: darkorange; 
+  text-decoration: none; 
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 600;
+}
+
+a:hover, a:focus {
+  color: white; 
+  background-color: darkorange; 
+  text-decoration: underline; 
+  cursor: pointer;
+}
+img {
+  height: 200px;
+}

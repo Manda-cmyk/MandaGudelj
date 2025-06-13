@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8" />
+  <title>Multimedija</title>
+  <style>
+    body {
+      max-width: 800px;
+      margin: 30px auto;
+      font-family: Arial, sans-serif;
+      background-color: #fdf6f7;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #6a3e99;
+      margin-bottom: 30px;
+    }
+    img {
+      height: 120px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      object-fit: cover;
+    }
+    video, audio {
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    iframe {
+      margin: 20px auto;
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Moja multimedija</h1>
+
+  <h2>Moje slike</h2>
+  <img src="../slike/slika1.jpg"  style="height:150px; margin:10px; border-radius:8px;">
+ <img src="../slike/slika2.jpg" style="height:150px; margin:10px; border-radius:8px;">
+	<img src="../slike/slika3.jpg" style="height:150px; margin:10px; border-radius:8px;">
+   <video width="400" controls>
+  <source src="../slike/Edward.mp4"="video/mp4">
+  Vaš preglednik ne podržava video tag.
+</video>
+
+  <h2>Video s YouTube-a</h2>
+  <iframe width="560" height="315" 
+  src="https://www.youtube.com/watch?v=IWYnqPmXp8Y" 
+  title="YouTube video" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+
+  <h2>Zvuk</h2>
+  <audio controls>
+  <source src="Dokumenti/audio.mp3" type="audio/mpeg">
+  Vaš preglednik ne podržava audio tag.
+</audio>
+</body>
+</html>
+
